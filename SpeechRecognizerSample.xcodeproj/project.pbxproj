@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		96ED343C251E895100B5F4C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ED343B251E895100B5F4C3 /* AppDelegate.swift */; };
-		96ED343E251E895100B5F4C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ED343D251E895100B5F4C3 /* SceneDelegate.swift */; };
 		96ED3440251E895100B5F4C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ED343F251E895100B5F4C3 /* ViewController.swift */; };
 		96ED3443251E895100B5F4C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96ED3441251E895100B5F4C3 /* Main.storyboard */; };
 		96ED3445251E895700B5F4C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96ED3444251E895700B5F4C3 /* Assets.xcassets */; };
 		96ED3448251E895700B5F4C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96ED3446251E895700B5F4C3 /* LaunchScreen.storyboard */; };
+		96ED3450251E8FE100B5F4C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ED344F251E8FE000B5F4C3 /* SceneDelegate.swift */; };
+		96ED3452251E91BD00B5F4C3 /* Vocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ED3451251E91BD00B5F4C3 /* Vocabulary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		96ED3438251E895100B5F4C3 /* SpeechRecognizerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechRecognizerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96ED343B251E895100B5F4C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96ED343D251E895100B5F4C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		96ED343F251E895100B5F4C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		96ED3442251E895100B5F4C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96ED3444251E895700B5F4C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96ED3447251E895700B5F4C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96ED3449251E895700B5F4C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96ED344F251E8FE000B5F4C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		96ED3451251E91BD00B5F4C3 /* Vocabulary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabulary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				96ED343B251E895100B5F4C3 /* AppDelegate.swift */,
-				96ED343D251E895100B5F4C3 /* SceneDelegate.swift */,
+				96ED344F251E8FE000B5F4C3 /* SceneDelegate.swift */,
 				96ED343F251E895100B5F4C3 /* ViewController.swift */,
+				96ED3451251E91BD00B5F4C3 /* Vocabulary.swift */,
 				96ED3441251E895100B5F4C3 /* Main.storyboard */,
 				96ED3444251E895700B5F4C3 /* Assets.xcassets */,
 				96ED3446251E895700B5F4C3 /* LaunchScreen.storyboard */,
@@ -140,7 +143,8 @@
 			files = (
 				96ED3440251E895100B5F4C3 /* ViewController.swift in Sources */,
 				96ED343C251E895100B5F4C3 /* AppDelegate.swift in Sources */,
-				96ED343E251E895100B5F4C3 /* SceneDelegate.swift in Sources */,
+				96ED3450251E8FE100B5F4C3 /* SceneDelegate.swift in Sources */,
+				96ED3452251E91BD00B5F4C3 /* Vocabulary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4JR3664V4M;
 				INFOPLIST_FILE = SpeechRecognizerSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4JR3664V4M;
 				INFOPLIST_FILE = SpeechRecognizerSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
